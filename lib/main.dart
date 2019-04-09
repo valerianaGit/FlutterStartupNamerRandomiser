@@ -18,11 +18,11 @@ class MyApp extends StatelessWidget {
 class RandomWordsState extends State<RandomWords> {
 //this class saves the generated word pairs
 final _suggestions = <WordPair>[];
-final _biggerFont = const TextStyle(fontSize: 18.0); //underscore enforeces privacy
+final _biggerFont = const TextStyle(fontSize: 18.0); //underscore enforces privacy
   @override
   Widget build(BuildContext context) {
 
-    return Scaffold(
+    return Scaffold( //shows a hierarchy for the view 
     appBar: AppBar(
       title: Text("Startup Name Generator"),
     ),
